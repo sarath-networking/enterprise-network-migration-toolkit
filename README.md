@@ -63,6 +63,10 @@ Large-scale infrastructure migrations require:
 
 ---
 
+## Sample Network Topology
+
+![Network Diagram](diagrams/network-topology.png)
+
 ## Disclaimer
 
 All documentation and scripts are for educational and demonstration purposes only. No confidential production data is included.
