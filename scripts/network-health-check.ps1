@@ -16,3 +16,16 @@ foreach ($device in $devices) {
         Write-Host "$device is NOT reachable"
     }
 }
+
+# Check DNS resolution
+Write-Output "`nChecking DNS resolution..."
+
+try {
+    Resolve-DnsName google.com -ErrorAction Stop
+    Write-Output "DNS resolution working"
+} catch {
+    Write-Output "DNS resolution failed"
+}
+
+# End of script
+Write-Output "`nHealth check completed."
