@@ -26,6 +26,7 @@ MikroTik-based edge devices to Juniper platforms in a live production environmen
 > **Key lesson from Railwire:** OSPF neighbour instability between the MikroTik edge
 > and new Juniper platform appeared in early phases. Validating adjacency stability
 > before cutting live traffic saved significant recovery time.
+> During the Railwire Ernakulam segment, this appeared in phase 1 and delayed our migration window by approximately 40 minutes before adjacency stabilised.
 
 ### Subscriber and Traffic Readiness
 - [ ] Active PPPoE session count per device recorded — baseline for comparison during migration
