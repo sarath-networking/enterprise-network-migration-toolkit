@@ -124,6 +124,8 @@ Every rollback config was prepared, reviewed, and staged before the window opene
 The goal during rollback is to restore service, not to understand why it failed.
 Root cause analysis happens after services are restored, not during.
 
+> *In practice we ran a full rehearsal two days before the first live phase with the NOC team in Kochi — that preparation was what kept execution clean when a real trigger occurred in phase 3.*
+
 ---
 
 *Developed from direct operational experience during the Railwire ICT MikroTik-to-Juniper
